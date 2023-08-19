@@ -10,10 +10,10 @@ const MyCard = ({ name, image, description, raza, color }) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description} </Card.Text>
-          <div className="tag">
-            <Tags txt={raza} colorBg={color} />
-          </div>
-        </Card.Body>
+        </Card.Body>{" "}
+        <div className="tag">
+          <Tags txt={raza} colorBg={color} />
+        </div>
       </Card>
     </>
   );
